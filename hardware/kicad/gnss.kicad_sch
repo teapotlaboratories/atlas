@@ -1022,12 +1022,6 @@
 		(color 0 0 0 0)
 		(uuid "dcb9bccb-afcf-45c1-af44-349b3ece71d8")
 	)
-	(junction
-		(at 81.915 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f91aaab2-b6a4-4cbd-94d9-696a2b18b7d2")
-	)
 	(no_connect
 		(at 120.65 64.77)
 		(uuid "12e91823-8911-4ae6-b2ce-64b36b5d3380")
@@ -1059,16 +1053,6 @@
 			(type default)
 		)
 		(uuid "1980b3ed-4b36-4176-9466-b1e89c7d67d0")
-	)
-	(wire
-		(pts
-			(xy 81.915 64.77) (xy 85.09 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c207881-25d8-49fd-9970-22ecdb69a783")
 	)
 	(wire
 		(pts
@@ -1242,16 +1226,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 53.34) (xy 81.915 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2e30519-ec19-453f-accb-2c48f50abf06")
-	)
-	(wire
-		(pts
 			(xy 137.16 29.21) (xy 137.16 30.48)
 		)
 		(stroke
@@ -1279,16 +1253,6 @@
 			(type default)
 		)
 		(uuid "e69a0e26-1b2e-488d-bf9c-65acd28d4090")
-	)
-	(wire
-		(pts
-			(xy 81.915 60.96) (xy 81.915 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaff6d43-010b-4778-a8d4-5fa1f59d91ca")
 	)
 	(wire
 		(pts
@@ -1322,7 +1286,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 64.77) (xy 81.915 64.77)
+			(xy 78.105 64.77) (xy 85.09 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.915 80.01 0)
 			(effects
 				(font
@@ -1577,6 +1541,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.915 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 81.915 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 81.915 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 81.915 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 81.915 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 81.915 80.01 0)
 			(effects
 				(font
@@ -1660,6 +1669,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 121.285 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 121.285 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 121.285 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 121.285 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 121.285 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0c6ca2d-ed13-4680-9d1d-11ae27693172")
 		)
@@ -1676,76 +1730,6 @@
 			(project "atlas"
 				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/f9cd082b-cac9-43d6-8c9f-f1ebaeb9f81d"
 					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 81.915 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f2230db-7167-4859-befc-7e91151f022a")
-		(property "Reference" "R5"
-			(at 79.375 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1M"
-			(at 79.375 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 81.915 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.915 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.915 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc7cad6b-7862-4de4-b95d-7ec8d4c38a2a")
-		)
-		(pin "2"
-			(uuid "f3e8a4b0-a3c5-41aa-9fac-0206a2e8cb04")
-		)
-		(instances
-			(project "atlas"
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/f9cd082b-cac9-43d6-8c9f-f1ebaeb9f81d"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2180,6 +2164,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 81.915 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 81.915 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 81.915 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 81.915 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 81.915 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c63ff3c-dfb3-44a4-9193-81687a982c9e")
 		)
@@ -2320,6 +2349,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0db7a077-01ad-478e-9645-b8b9417113b6")
 		)
@@ -2387,6 +2461,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 68.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 68.58 34.29 0)
 			(effects
 				(font
@@ -2483,73 +2602,6 @@
 			(project "atlas"
 				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/f9cd082b-cac9-43d6-8c9f-f1ebaeb9f81d"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 81.915 53.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd97b733-65c3-4b9c-a2ab-f3998a0b1a83")
-		(property "Reference" "#PWR01"
-			(at 81.915 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 83.185 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.915 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.915 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.915 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c797a69-63b1-4656-87a5-f973c75e57a4")
-		)
-		(instances
-			(project "atlas"
-				(path "/59b4123e-c7be-466b-a5db-658b8f0c1171/f9cd082b-cac9-43d6-8c9f-f1ebaeb9f81d"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
