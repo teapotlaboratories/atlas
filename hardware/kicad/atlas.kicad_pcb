@@ -33086,7 +33086,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C44"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c29b3771-31b6-4ae7-a7ba-7bce8b36d567")
@@ -33099,7 +33099,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0.715 1.23 360)
+			(at 0.715 1.23 0)
 			(layer "B.Fab")
 			(uuid "950cb6c8-04aa-41ce-87ab-c47df289b235")
 			(effects
@@ -33328,7 +33328,7 @@
 			(uuid "7f0668a3-8370-4d7c-9bd6-69f15ef82ac6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "0669a619-e77e-4e2e-bbb3-a7b5721a3a9f")
 			(effects
@@ -35089,7 +35089,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at -0.31 -0.9 270)
+			(at -0.31 -0.9 -90)
 			(layer "B.Fab")
 			(uuid "ba423104-e51b-4ad6-a31e-846b96d96bb4")
 			(effects
@@ -35101,7 +35101,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 1.51 0 270)
+			(at 1.51 0 -90)
 			(layer "B.Fab")
 			(uuid "19106289-f2e2-44a5-bafc-0b89b3e52854")
 			(effects
@@ -35668,7 +35668,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C45"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "14113a84-c42b-4f71-9303-32629d6c201b")
@@ -35681,7 +35681,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at -0.015 -1.1 360)
+			(at -0.015 -1.1 0)
 			(layer "B.Fab")
 			(uuid "011ec724-387d-4c70-9a7b-7a6ff8f52537")
 			(effects
@@ -35910,7 +35910,7 @@
 			(uuid "8cc78ebb-bdcb-46d6-822d-95403d1e2f26")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8b70a66c-a424-4e68-9a49-fff27936f66c")
 			(effects
@@ -36676,13 +36676,13 @@
 		)
 	)
 	(gr_text "REVISION 1"
-		(at 125.82 71.57 90)
+		(at 126.59 71.57 90)
 		(layer "B.SilkS" knockout)
 		(uuid "f969bdda-0321-44c8-8a9a-b96673f211d9")
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.5)
+				(thickness 0.35)
 				(bold yes)
 			)
 			(justify left bottom mirror)
