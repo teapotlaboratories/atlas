@@ -240,6 +240,465 @@
 	(net 89 "/GNSS/GNSS_RXD")
 	(net 90 "/GNSS/GNSS_TXD")
 	(net 91 "unconnected-(U4-STATUS[2]-Pad19)")
+	(footprint "atlas:SW_SPST_B3U-3000P"
+		(layer "F.Cu")
+		(uuid "001947e6-3bb8-4e9c-b8a3-fb71e67bbd0b")
+		(at 126.5 54 -90)
+		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, without Boss")
+		(tags "Tactile Switch")
+		(property "Reference" "SW1"
+			(at 0.935 -0.93 90)
+			(layer "F.Fab")
+			(uuid "06a041d9-fc30-452d-946d-25c08d86b096")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Value" "B3U-3000P"
+			(at 1.835 0.01 180)
+			(layer "F.Fab")
+			(uuid "e97294ec-3eea-4430-a522-13f6d3957d21")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Footprint" "atlas:SW_SPST_B3U-3000P"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "982d3929-f505-4ab7-aa0e-14d1b6d931c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2012042009_Omron-Electronics-B3U-3000P_C963349.pdf"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83c3fb31-cfbf-48f2-b4e0-717e835bad43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87fa4130-a891-4fbe-9bfa-6b0d1926bd49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b57e6917-89c8-4483-9e7c-6eeca536d06e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.lcsc.com/product-detail/Tactile-Switches_Omron-Electronics-B3U-3000P_C963349.html"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e93ca2b4-3f22-4ee1-a319-480b876dc502")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Part Number" "C963349"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc0a329c-82a3-4b41-8796-957455bbecab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93f97cc5-b78c-4132-9b1b-652a64be0610")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B3U-3000P"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f5698ef-4cc6-4328-bae6-3e0e90395af5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part Description" "Tactile Switches NO 50mA 100MΩ 12V 1.59N"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7584ecc7-ccc4-41eb-87e6-00befb45013a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -1.65 1.4)
+			(end 1.65 1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "037a848e-1cba-41d9-be25-78eb668b4057")
+		)
+		(fp_line
+			(start 1.65 1.4)
+			(end 1.65 1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "387bd6fc-d4a2-41dc-a415-d1c319cb79ac")
+		)
+		(fp_line
+			(start -1.65 1.1)
+			(end -1.65 1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b5447f8-e7fa-4682-ad81-1876f9daaa4a")
+		)
+		(fp_line
+			(start -1.65 -1.1)
+			(end -1.65 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d1eb7a52-89e8-4fdb-905a-291a2ea9f12d")
+		)
+		(fp_line
+			(start -1.65 -1.4)
+			(end 1.65 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c84eb3cc-ccb5-4bce-b44b-b9af08655cb5")
+		)
+		(fp_line
+			(start 1.65 -1.4)
+			(end 1.65 -1.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "679b1694-068a-4b35-875b-bda4447f8ef1")
+		)
+		(fp_line
+			(start -1 -1.72)
+			(end -1 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b7439f88-3461-4498-8065-f7828678918f")
+		)
+		(fp_line
+			(start 1 -1.72)
+			(end 1 -1.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5ce343e6-ff64-40e4-8d5b-02362d278d09")
+		)
+		(fp_line
+			(start -0.5 -2.1)
+			(end -1 -1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "613f45ae-a45b-4f12-8065-0e976ebd8264")
+		)
+		(fp_line
+			(start -0.5 -2.1)
+			(end 0.5 -2.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c226b2f-8ac7-44b9-9e8a-bbd3b049e0d6")
+		)
+		(fp_line
+			(start 0.5 -2.1)
+			(end 1 -1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b5b9197-0714-435c-b4e6-e770fd6d42b7")
+		)
+		(fp_line
+			(start -2.4 1.65)
+			(end 2.4 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "58b4a87e-2b63-4031-adaf-f95446244d91")
+		)
+		(fp_line
+			(start 2.4 1.65)
+			(end 2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f536d221-ab86-4f48-a0a3-d2700a29533e")
+		)
+		(fp_line
+			(start -2.4 -1.65)
+			(end -2.4 1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a5a7ea2-a3fd-46cd-9aab-5cf40d5b1dde")
+		)
+		(fp_line
+			(start -1.25 -1.65)
+			(end -2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f90ce5be-4c44-4cce-b18a-61ada605d164")
+		)
+		(fp_line
+			(start -1.25 -1.65)
+			(end -1.25 -2.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5c068528-a60a-43ab-9175-933750946108")
+		)
+		(fp_line
+			(start 1.25 -1.65)
+			(end 2.4 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "29e985e5-9540-4635-8e6a-b6c3ae1b50c7")
+		)
+		(fp_line
+			(start -1.25 -2.35)
+			(end 1.25 -2.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "324b5431-20d5-45bb-ad49-2835bbbf2194")
+		)
+		(fp_line
+			(start 1.25 -2.35)
+			(end 1.25 -1.65)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cfb308d8-ed0c-454e-af7f-807f6675c66c")
+		)
+		(fp_line
+			(start -1.5 1.25)
+			(end -1.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1ecfed30-32d8-43e6-bc16-7ed0c2c41f15")
+		)
+		(fp_line
+			(start 1.5 1.25)
+			(end -1.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ca6de224-278c-4e7b-b951-eb1b8ad6f7e0")
+		)
+		(fp_line
+			(start -1.5 -1.25)
+			(end 1.5 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8d9d673-11e9-4bdb-9026-a04d3f7f7a43")
+		)
+		(fp_line
+			(start -0.85 -1.25)
+			(end -0.85 -1.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "604f78a3-669b-4ede-8e4e-6f4724f24fb0")
+		)
+		(fp_line
+			(start 1.5 -1.25)
+			(end 1.5 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "413a7cb0-1683-42bc-b963-1d06d371de5e")
+		)
+		(fp_line
+			(start -0.85 -1.65)
+			(end -0.45 -1.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f162ff6-9b9d-4ce4-a69f-6f8fc7a1729e")
+		)
+		(fp_line
+			(start 0.85 -1.65)
+			(end 0.85 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b56042f9-247e-45f1-94e7-26ea36a289d1")
+		)
+		(fp_line
+			(start -0.45 -1.95)
+			(end 0.45 -1.95)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a224af46-56c5-4970-9bf5-b5547e6568ed")
+		)
+		(fp_line
+			(start 0.45 -1.95)
+			(end 0.85 -1.65)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "568026da-5f2c-4e57-9339-350e057ec230")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.935 -0.93 90)
+			(layer "F.Fab")
+			(uuid "4d8daf60-a35b-42d8-a0e2-b6f9e0085ed2")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.7 0 270)
+			(size 0.9 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4f124736-fe1b-491e-9753-4380fa0b706f")
+		)
+		(pad "2" smd rect
+			(at 1.7 0 270)
+			(size 0.9 1.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "3996f694-7f36-41b2-8657-15af801a12ae")
+		)
+		(model "${KIPRJMOD}/library/3dmodels/B3U-3000P.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "0293a8ab-f20b-43bb-a29b-140c96abd628")
@@ -38049,15 +38508,6 @@
 		(uuid "2e9598a9-6013-4b5c-8301-cee52c493990")
 	)
 	(via
-		(at 128.1 51.41)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "2fa4d66d-a1e1-4cee-bc54-64334e815367")
-	)
-	(via
 		(at 127.9 89.14)
 		(size 0.6)
 		(drill 0.3)
@@ -38801,15 +39251,6 @@
 		(uuid "709b6a03-bad1-4c90-8740-cab1fd0b9087")
 	)
 	(via
-		(at 127.95 52.6)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "728f43c1-37fe-425c-b9af-27427b67583a")
-	)
-	(via
 		(at 106.06 49.72)
 		(size 0.6)
 		(drill 0.3)
@@ -38817,15 +39258,6 @@
 		(free yes)
 		(net 2)
 		(uuid "74d7d969-643c-4ec3-8b60-46bee377655c")
-	)
-	(via
-		(at 127.95 55.31)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "7537504f-a654-42c5-9d82-47071204186d")
 	)
 	(via
 		(at 116.37 114.2)
@@ -39218,15 +39650,6 @@
 		(uuid "a190f245-1dd9-4c38-a52f-841c58fd3e97")
 	)
 	(via
-		(at 127.88 53.93)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "a2be231c-096e-482b-8862-3d714c5bcaf1")
-	)
-	(via
 		(at 117.32 70.87)
 		(size 0.6)
 		(drill 0.3)
@@ -39412,15 +39835,6 @@
 		(free yes)
 		(net 2)
 		(uuid "b65ec7a4-af7b-47b5-b6bb-8b7a6637d0b8")
-	)
-	(via
-		(at 124.6 50.8)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "b790cd9b-00a2-44e3-bfa9-807aa187d4c5")
 	)
 	(via
 		(at 110.8488 36.4842)
