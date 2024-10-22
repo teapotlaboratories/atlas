@@ -1,0 +1,186 @@
+(footprint "SK6812-SIDE-A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.032 -1.397 0)
+		(layer "F.SilkS")
+		(uuid "7f6b51da-a249-4296-bbb8-6541a9d2c576")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SK6812-SIDE-A"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "8f4b856a-0800-4384-8f23-1a2a77326ad2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f021276c-f887-49c2-8490-690a561a8a20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85a9324c-51cf-4a2b-8cf9-a10c74063407")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c570f808-ba77-47ab-ae82-6c3cacd519c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.7 -0.6)
+		(end 4.3 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f5bfde6-29a3-4e5f-bf83-1173dde1093b")
+	)
+	(fp_line
+		(start -0.7 1.4)
+		(end -0.7 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a33a50b5-50f1-4f0f-8aa6-439a3319d80f")
+	)
+	(fp_line
+		(start 3.7 1.4)
+		(end -0.7 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e0ba47e-9290-49a6-adc2-4c7e6384b956")
+	)
+	(fp_line
+		(start 4.3 -0.6)
+		(end 4.3 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d77e051b-5789-4bf4-821c-e21fd965f266")
+	)
+	(fp_line
+		(start 4.3 0.7)
+		(end 3.7 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80202aa9-5813-4150-a8d3-9f90b97c8b50")
+	)
+	(pad "1" smd custom
+		(at 0 0)
+		(size 1 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.05 -0.525) (xy 0.5 -0.525) (xy 0.5 0.675) (xy -0.05 0.675)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "47859c63-b09c-4d72-b631-2538f28cf134")
+	)
+	(pad "2" smd rect
+		(at 1.35 0)
+		(size 0.7 1.2)
+		(drill
+			(offset 0 0.075)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 0)
+		(uuid "dfcd3e75-21f0-44f9-8d1f-0138017414df")
+	)
+	(pad "3" smd rect
+		(at 2.375 0)
+		(size 0.45 1.2)
+		(drill
+			(offset 0 0.075)
+		)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 0)
+		(uuid "06ee0229-1c07-46ac-b497-82800e0c8663")
+	)
+	(pad "4" smd custom
+		(at 3.6 0)
+		(size 1 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.05 -0.525) (xy -0.5 -0.525) (xy -0.5 0.675) (xy 0.05 0.675)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b40aa878-a2ce-42ca-9a42-0abf13f3509e")
+	)
+	(model "${KIPRJMOD}/../lib/sk6812.3dshapes/SK6812-SIDE-A.step"
+		(offset
+			(xyz 1.76 -0.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

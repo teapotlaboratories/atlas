@@ -1,0 +1,138 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LTST-S220KGKT"
+   (description "LTST-S220KGKT, Lite-On 571 nm Green LED, 2012 (0805) Side View SMD package")
+   (family "DIO")
+   (package "LTSTS220KGKT")
+   (attribute "Datasheet Link" "https://optoelectronics.liteon.com/upload/download/DS22-2000-075/LTST-S220KGKT.pdf")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Mouser Part Number" "859-LTST-S220KGKT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-S220KGKT?qs=KMS9ZICL0BxKPmHbZC5Zog%3D%3D")
+   (attribute "Manufacturer_Name" "Lite-On")
+   (attribute "Manufacturer_Part_Number" "LTST-S220KGKT")
+   (gate
+    (symbol "LTST-S220KGKT")
+    (pin "K" 2 PS)
+    (pin "A" 1 PS)
+   )
+  )
+  (symbol "LTST-S220KGKT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 100) (pt 150 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 100) (pt 250 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 210 170) (pt 180 140) (pt 150 200) (pt 210 170))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 310 170) (pt 280 140) (pt 250 200) (pt 310 170))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 10 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 10 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LTSTS220KGKT"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -0.3 1.05)
+      (pt 0.3 1.05)
+      (pt 0.3 -1.05)
+      (pt -0.3 -1.05)
+      (pt -0.3 1.05))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.15 3)
+      (pt 1.5 3)
+      (pt 1.5 -3)
+      (pt -2.15 -3)
+      (pt -2.15 3))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.3 0.85)
+      (arc (pt -0.300 0.850) (pt -1.150 -0.850) (pt 0.550 0.850) (start 180.0) (sweep 90.0))
+      (pt -0.3 -0.85)
+      (pt -0.3 0.85))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.3 0.3)
+      (pt 0.3 -0.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.1 2.5)
+      (arc (pt -0.100 2.500) (pt -0.100 2.400) (pt 0.100 2.600) (start 180.0) (sweep 180.0))
+      (pt 0.1 2.5)
+      (arc (pt 0.100 2.500) (pt -0.100 2.400) (pt 0.100 2.600) (start 180.0) (sweep .0))
+      (pt -0.1 2.5))))
+   (leg 1 (pt 0.000 1.250) (padstack 0))
+   (leg 2 (pt 0.000 -1.250) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 1.500 0 0 90.000))
+   )
+   (model "LTST-S220KGKT.stp"
+    (euler 0 -90 0)
+    (offset 0.23999999463558197 0 0.25)
+   )
+  )
+ )
+)

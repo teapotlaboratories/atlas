@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_563473"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-01-31-14:52:25)
+    (utime 2024-03-15-21:39:24)
+    (interface
+        (port "1" (symbPinId 2) (portType INOUT))
+        (port "2" (symbPinId 1) (portType INOUT))
+    )
+    (property "symbolName" "LTST-S220KGKT")
+)
+
+
+(pinAssign "ECS_563473"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-01-31-14:52:25)
+    (utime 2024-03-15-21:39:24)
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_563473")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "LTST-S220KGKT")
+)
+
+
+(part "LTST-S220KGKT"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-01-31-14:52:25)
+    (utime 2024-03-15-21:39:24)
+    (packageRef "LTST-S220KGKT")
+    (pinAssignRef "ECS_563473")
+    (interface
+        (port "1" (symbPinId 2) (portName "A") (portType INOUT))
+        (port "2" (symbPinId 1) (portName "K") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "LTST-S220KGKT, Lite-On 571 nm Green LED, 2012 (0805) Side View SMD package")
+    (property "Mouser_Part_Number" "859-LTST-S220KGKT")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-S220KGKT?qs=KMS9ZICL0BxKPmHbZC5Zog%3D%3D")
+    (property "Manufacturer_Name" "Lite-On")
+    (property "Manufacturer_Part_Number" "LTST-S220KGKT")
+    (property "Datasheet_Link" "https://optoelectronics.liteon.com/upload/download/DS22-2000-075/LTST-S220KGKT.pdf")
+    (property "compAreaTopHeight" 0.6)
+)
+
+

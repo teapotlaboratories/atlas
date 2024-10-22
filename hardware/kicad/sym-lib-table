@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "atlas")(type "KiCad")(uri "${KIPRJMOD}/library/atlas.kicad_sym")(options "")(descr ""))
+  (lib (name "skled")(type "KiCad")(uri "${KIPRJMOD}/library/SK6812.kicad_sym")(options "")(descr ""))
+  (lib (name "ltst-s220")(type "KiCad")(uri "${KIPRJMOD}/library/LTST-S220KGKT/KiCad/LTST-S220KGKT.kicad_sym")(options "")(descr ""))
 )

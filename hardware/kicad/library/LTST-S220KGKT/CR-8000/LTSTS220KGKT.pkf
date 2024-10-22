@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LTSTS220KGKT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LTSTS220KGKT")
+        (spec "default")
+    )
+)
