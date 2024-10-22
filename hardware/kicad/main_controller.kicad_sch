@@ -2786,7 +2786,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.21 163.83) (xy 222.25 163.83)
+			(xy 281.94 163.83) (xy 222.25 163.83)
 		)
 		(stroke
 			(width 0.5)
@@ -3086,7 +3086,7 @@
 	)
 	(polyline
 		(pts
-			(xy 222.25 115.57) (xy 283.21 115.57)
+			(xy 222.25 115.57) (xy 281.94 115.57)
 		)
 		(stroke
 			(width 0.5)
@@ -3656,7 +3656,7 @@
 	)
 	(polyline
 		(pts
-			(xy 283.21 115.57) (xy 283.21 163.83)
+			(xy 281.94 115.57) (xy 281.94 163.83)
 		)
 		(stroke
 			(width 0.5)
@@ -4624,7 +4624,7 @@
 	)
 	(text "Boot Button"
 		(exclude_from_sim no)
-		(at 254 160.655 0)
+		(at 250.825 160.655 0)
 		(effects
 			(font
 				(size 3 3)
