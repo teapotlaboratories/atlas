@@ -1,9 +1,0 @@
-Manufacturer=Lite-On
-PartNumber=LTST-S220KGKT
-PartCategory=LED
-PackageCategory=Other
-PinCount=2
-Version=1.1
-Released=2019-01-31 14:52:25
-Downloaded=2024-10-22 12:26:38
-3D=Y

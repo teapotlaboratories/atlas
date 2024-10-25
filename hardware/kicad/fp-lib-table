@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
   (lib (name "atlas")(type "KiCad")(uri "${KIPRJMOD}/library/atlas.pretty")(options "")(descr ""))
-  (lib (name "ltst-220")(type "KiCad")(uri "${KIPRJMOD}/library/LTST-S220KGKT/KiCad")(options "")(descr ""))
 )
