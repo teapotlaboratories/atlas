@@ -5,9 +5,9 @@
 	(uuid "4ae5d511-70c0-4fc6-a560-5e86bd4dae3d")
 	(paper "A5")
 	(title_block
-		(title "GNSS")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols

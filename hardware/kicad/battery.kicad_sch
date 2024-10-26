@@ -5,9 +5,9 @@
 	(uuid "f9440f04-40ba-4a04-b934-049cbe550e10")
 	(paper "A5")
 	(title_block
-		(title "Battery")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols

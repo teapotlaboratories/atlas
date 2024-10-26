@@ -5,9 +5,9 @@
 	(uuid "a19accfe-2822-4d89-a003-1210f75a2c15")
 	(paper "A5")
 	(title_block
-		(title "USB Power")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols

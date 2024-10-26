@@ -5,9 +5,9 @@
 	(uuid "fa0c9247-4bac-4727-93ba-a37a610f8815")
 	(paper "A4")
 	(title_block
-		(title "Main Controller")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols

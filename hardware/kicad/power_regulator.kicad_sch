@@ -5,9 +5,9 @@
 	(uuid "aeefe7f9-3137-4c86-87ab-dde28f417ced")
 	(paper "A4")
 	(title_block
-		(title "Power Regulator")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols

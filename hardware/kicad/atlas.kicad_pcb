@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Teapotlabs Plantpal")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(layers
@@ -5888,7 +5888,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.Fab")
 			(uuid "fb6d610e-a992-4cd3-9fa8-f544ac306f90")
 			(effects
@@ -5899,7 +5899,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "09e8dbbe-a912-4b60-9c00-a85f6417d0ed")
 			(effects
@@ -6132,7 +6132,7 @@
 			(uuid "3c9f2411-a8ee-44c6-9394-1a8b7b3cc93a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a682122f-1c67-4d16-b5df-ac82dbd91dc8")
 			(effects
@@ -14896,7 +14896,7 @@
 		(uuid "66f2bd16-cf41-4e0d-90e4-eb8ac8967afe")
 		(at 107.19104 39.180144)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "99d348e1-f7b6-45c3-8050-1b6344db0ec8")
 			(effects
@@ -14907,7 +14907,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "110ca3d0-f424-4535-9677-77c09c6ec86d")

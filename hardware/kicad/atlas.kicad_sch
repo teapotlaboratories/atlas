@@ -5,9 +5,9 @@
 	(uuid "59b4123e-c7be-466b-a5db-658b8f0c1171")
 	(paper "A4")
 	(title_block
-		(title "Teapotlabs Plantpal")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols

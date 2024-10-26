@@ -5,9 +5,9 @@
 	(uuid "eaa6e54d-186a-422b-806f-029ccfa0ddfa")
 	(paper "A4")
 	(title_block
-		(title "Sensor")
-		(date "2024-04-06")
-		(rev "5")
+		(title "Teapotlabs Atlas")
+		(date "2024-10-25")
+		(rev "1")
 		(company "Teapot Laboratories")
 	)
 	(lib_symbols
